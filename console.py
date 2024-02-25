@@ -1,12 +1,10 @@
 #!/usr/bin/python3
 """
- Quit command to exit the program.
 """
 import  cmd
 
 class HBNBCommand(cmd.Cmd):
     """
-     Quit command to exit the program.
     """
 
     prompt = "(hbnb)"
@@ -19,7 +17,7 @@ class HBNBCommand(cmd.Cmd):
     
     def help_quit(self, arg):
         """
-         Quit command to exit the program.
+    
         """
         print("Qiut command to exit the program")
     
